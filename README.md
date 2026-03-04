@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Car Gallery Dashboard
 
-## Getting Started
+Full-stack car dealership management system built with Next.js 16, Prisma, PostgreSQL, and Shadcn/ui.
 
-First, run the development server:
+## Features
+
+- **Auth** — Role-based access (Admin / Sales Rep) with NextAuth.js
+- **Vehicles** — Inventory management with image uploads
+- **Sales** — 2-step sale form, installment tracking, payment status
+- **Customers** — CRM with contact history timeline
+- **Reports** — Analytics with Recharts charts + Excel export
+- **Market** — External listing scraper
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- TypeScript
+- Prisma ORM + PostgreSQL
+- NextAuth.js v5
+- Shadcn/ui + Tailwind CSS v4
+- Recharts
+- Cloudinary (image storage)
+- xlsx (Excel export)
+
+---
+
+## Deployment (Vercel + Neon)
+
+### 1. Database — Neon (free PostgreSQL)
+
+1. Go to [neon.tech](https://neon.tech) → create project
+2. Copy the connection string (with `?sslmode=require`)
+
+### 2. Image Storage — Cloudinary (free tier)
+
+1. Go to [cloudinary.com](https://cloudinary.com) → create account
+2. Copy **Cloud Name**, **API Key**, **API Secret** from the dashboard
+
+### 3. Deploy to Vercel
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Install Vercel CLI
+npm i -g vercel
+
+# From the phase-5 directory:
+vercel
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or connect via [vercel.com](https://vercel.com) → Import Git Repository.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Set these in Vercel dashboard → Settings → Environment Variables:
 
-## Learn More
+| Variable | Value |
+|---|---|
+| `DATABASE_URL` | `postgresql://...?sslmode=require` |
+| `NEXTAUTH_SECRET` | `openssl rand -base64 32` |
+| `NEXTAUTH_URL` | `https://your-app.vercel.app` |
+| `NEXT_PUBLIC_APP_NAME` | `Car Gallery` |
+| `CLOUDINARY_CLOUD_NAME` | from Cloudinary dashboard |
+| `CLOUDINARY_API_KEY` | from Cloudinary dashboard |
+| `CLOUDINARY_API_SECRET` | from Cloudinary dashboard |
 
-To learn more about Next.js, take a look at the following resources:
+### 5. Database Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After first deploy, run migrations and seed:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Set DATABASE_URL in your local .env.local, then:
+npx prisma migrate dev --name init
+npx prisma db seed
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Local Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+cp .env.example .env.local
+# Fill in .env.local
+
+npm install
+npx prisma db push
+npx prisma db seed
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+**Test accounts:**
+- Admin: `admin@cargallery.com` / `admin123`
+- Sales Rep: `sales@cargallery.com` / `sales123`
+
+---
+
+## Available Scripts
+
+| Script | Description |
+|---|---|
+| `npm run dev` | Start dev server |
+| `npm run build` | Production build |
+| `npm run db:push` | Push schema (dev only) |
+| `npm run db:migrate` | Run migrations (production) |
+| `npm run db:seed` | Seed database |
+| `npm run db:studio` | Open Prisma Studio |

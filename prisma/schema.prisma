@@ -1,0 +1,172 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  password  String
+  role      Role     @default(SALES_REP)
+  phone     String?
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  sales        Sale[]
+  contactNotes ContactNote[]
+
+  @@map("users")
+}
+
+enum Role {
+  ADMIN
+  SALES_REP
+}
+
+model Vehicle {
+  id            String        @id @default(cuid())
+  brand         String
+  model         String
+  year          Int
+  color         String
+  fuelType      FuelType
+  transmission  Transmission
+  mileage       Int
+  purchasePrice Float
+  salePrice     Float
+  status        VehicleStatus @default(AVAILABLE)
+  images        String[]
+  description   String?
+  plateNumber   String?       @unique
+  vin           String?       @unique
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  sale          Sale?
+
+  @@map("vehicles")
+}
+
+enum FuelType {
+  GASOLINE
+  DIESEL
+  ELECTRIC
+  HYBRID
+  LPG
+}
+
+enum Transmission {
+  MANUAL
+  AUTOMATIC
+  SEMI_AUTO
+}
+
+enum VehicleStatus {
+  AVAILABLE
+  RESERVED
+  SOLD
+}
+
+model Customer {
+  id           String   @id @default(cuid())
+  firstName    String
+  lastName     String
+  email        String?  @unique
+  phone        String
+  address      String?
+  city         String?
+  notes        String?
+  idNumber     String?  @unique
+  birthDate    DateTime?
+  occupation   String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  sales        Sale[]
+  contactNotes ContactNote[]
+
+  @@map("customers")
+}
+
+model ContactNote {
+  id         String          @id @default(cuid())
+  customerId String
+  userId     String
+  type       ContactNoteType @default(NOTE)
+  content    String
+  createdAt  DateTime        @default(now())
+  updatedAt  DateTime        @updatedAt
+
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  user       User     @relation(fields: [userId], references: [id])
+
+  @@map("contact_notes")
+}
+
+enum ContactNoteType {
+  NOTE
+  CALL
+  EMAIL
+  MEETING
+  FOLLOW_UP
+}
+
+model Sale {
+  id               String        @id @default(cuid())
+  vehicleId        String        @unique
+  customerId       String
+  salesRepId       String
+  salePrice        Float
+  downPayment      Float         @default(0)
+  remainingAmount  Float         @default(0)
+  paymentStatus    PaymentStatus @default(PENDING)
+  paymentMethod    PaymentMethod
+  commissionRate   Float         @default(0.02)
+  commissionAmount Float
+  notes            String?
+  saleDate         DateTime      @default(now())
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  vehicle          Vehicle       @relation(fields: [vehicleId], references: [id])
+  customer         Customer      @relation(fields: [customerId], references: [id])
+  salesRep         User          @relation(fields: [salesRepId], references: [id])
+  payments         Payment[]
+
+  @@map("sales")
+}
+
+enum PaymentStatus {
+  PENDING
+  PARTIAL
+  COMPLETED
+}
+
+enum PaymentMethod {
+  CASH
+  CREDIT_CARD
+  BANK_TRANSFER
+  LOAN
+  INSTALLMENT
+}
+
+model Payment {
+  id        String    @id @default(cuid())
+  saleId    String
+  amount    Float
+  dueDate   DateTime
+  paidDate  DateTime?
+  isPaid    Boolean   @default(false)
+  note      String?
+  createdAt DateTime  @default(now())
+
+  sale      Sale      @relation(fields: [saleId], references: [id], onDelete: Cascade)
+
+  @@map("payments")
+}
