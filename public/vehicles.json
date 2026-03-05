@@ -1,6 +1,6 @@
 {
   "scraped_at": "2026-03-04T23:16:37.404Z",
-  "cleaned_at": "2026-03-04T23:18:09.098Z",
+  "cleaned_at": "2026-03-05T21:21:43.063Z",
   "source": "autotempest.com",
   "search_params": {
     "zip": "90001",
@@ -12,7 +12,7 @@
   "total": 630,
   "vehicles": [
     {
-      "vin": null,
+      "vin": "2HGES15514H572031",
       "year": 2004,
       "make": "Honda",
       "model": "Civic",
@@ -26,7 +26,7 @@
       "site_code": "rev"
     },
     {
-      "vin": null,
+      "vin": "2HGES15514H572031",
       "year": 2004,
       "make": "Honda",
       "model": "Civic",
@@ -40,7 +40,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1G6DM57N930161331",
       "year": 2003,
       "make": "Cadillac",
       "model": "CTS",
@@ -54,7 +54,7 @@
       "site_code": "rev"
     },
     {
-      "vin": null,
+      "vin": "1G6DM57N930161331",
       "year": 2003,
       "make": "Cadillac",
       "model": "CTS",
@@ -264,7 +264,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "WKWUTDN30MMWN5YDG",
       "year": 2015,
       "make": "INFINITI",
       "model": "QX60",
@@ -278,7 +278,7 @@
       "site_code": "pa"
     },
     {
-      "vin": null,
+      "vin": "WKWUTDN30MMWN5YDG",
       "year": 2015,
       "make": "INFINITI",
       "model": "QX60",
@@ -544,7 +544,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "JM1FE173850141102",
       "year": 2005,
       "make": "Mazda",
       "model": "RX-8",
@@ -558,7 +558,7 @@
       "site_code": "rev"
     },
     {
-      "vin": null,
+      "vin": "JM1FE173850141102",
       "year": 2005,
       "make": "Mazda",
       "model": "RX-8",
@@ -880,7 +880,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1G1ZC5ST5PF158840",
       "year": 2023,
       "make": "Chevrolet",
       "model": "Malibu 1LS",
@@ -2392,7 +2392,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "SALZJ2FX5LH049536",
       "year": 2020,
       "make": "Land",
       "model": "Rover Range Rover Evoque P250 S",
@@ -2406,7 +2406,7 @@
       "site_code": "cv"
     },
     {
-      "vin": null,
+      "vin": "SALZJ2FX5LH049536",
       "year": 2020,
       "make": "Land",
       "model": "Rover Range Rover Evoque P250 S",
@@ -2546,7 +2546,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "3KPFT4DE7TE287458",
       "year": 2026,
       "make": "Kia",
       "model": "K4 LXS",
@@ -2784,7 +2784,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "MHPE4DYWFTYE90XVA",
       "year": 2017,
       "make": "Chevrolet",
       "model": "G3500 Vans Express",
@@ -2980,7 +2980,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "WBA53AK04R7R10669",
       "year": 2024,
       "make": "BMW",
       "model": "228 Gran Coupe I Gran Coupe",
@@ -2994,7 +2994,7 @@
       "site_code": "cm"
     },
     {
-      "vin": null,
+      "vin": "WBA53AK04R7R10669",
       "year": 2024,
       "make": "BMW",
       "model": "228 Gran Coupe I Gran Coupe",
@@ -3092,7 +3092,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "JTDBCMFE1T3143312",
       "year": 2026,
       "make": "Toyota",
       "model": "Corolla",
@@ -3106,7 +3106,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "JTDBCMFE1T3143312",
       "year": 2026,
       "make": "Toyota",
       "model": "Corolla",
@@ -3764,7 +3764,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1FTER4BH4SLE18021",
       "year": 2025,
       "make": "Ford",
       "model": "Ranger",
@@ -3778,7 +3778,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1FTER4BH4SLE18021",
       "year": 2025,
       "make": "Ford",
       "model": "Ranger",
@@ -3834,7 +3834,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "KNDEUCAA6T7831971",
       "year": 2026,
       "make": "Kia",
       "model": "Seltos S",
@@ -3848,7 +3848,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3FMCR9KN3SRE07597",
       "year": 2025,
       "make": "Ford",
       "model": "Bronco Free Wheeling",
@@ -3862,7 +3862,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3FMCR9KN3SRE07597",
       "year": 2025,
       "make": "Ford",
       "model": "Bronco Free Wheeling",
@@ -3876,7 +3876,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3FMCR9KNXSRE68204",
       "year": 2025,
       "make": "Ford",
       "model": "Bronco Free Wheeling",
@@ -3890,7 +3890,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3FMCR9KNXSRE68204",
       "year": 2025,
       "make": "Ford",
       "model": "Bronco Free Wheeling",
@@ -3932,7 +3932,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1FMCU0E10SUA48706",
       "year": 2025,
       "make": "Ford",
       "model": "Escape PHEV",
@@ -3946,7 +3946,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1FMCU0E10SUA48706",
       "year": 2025,
       "make": "Ford",
       "model": "Escape PHEV",
@@ -3960,7 +3960,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "WBA4W7C0XLFJ62866",
       "year": 2020,
       "make": "BMW",
       "model": "4 Series 440i Coupe 2D",
@@ -4044,7 +4044,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "JTMBCAEB4TJ019259",
       "year": 2026,
       "make": "Toyota",
       "model": "bZ",
@@ -4058,7 +4058,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "JTMBCAEB4TJ019259",
       "year": 2026,
       "make": "Toyota",
       "model": "bZ",
@@ -4072,7 +4072,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "JTDACACU3T3067601",
       "year": 2026,
       "make": "Toyota",
       "model": "Prius",
@@ -4086,7 +4086,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "JTDACACU3T3067601",
       "year": 2026,
       "make": "Toyota",
       "model": "Prius",
@@ -4212,7 +4212,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "JTMBCAEB9TA006071",
       "year": 2026,
       "make": "Toyota",
       "model": "bZ",
@@ -4226,7 +4226,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "JTMBCAEB9TA006071",
       "year": 2026,
       "make": "Toyota",
       "model": "bZ",
@@ -4268,7 +4268,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "4T1DAACK1TU714780",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4282,7 +4282,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "4T1DAACK1TU714780",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4296,7 +4296,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "4T1DAACK8TU281782",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4310,7 +4310,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "4T1DAACK8TU281782",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4324,7 +4324,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "4T1DAACK1TU281834",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4338,7 +4338,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "4T1DAACK1TU281834",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4366,7 +4366,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "KNDNB5K35T6617772",
       "year": 2026,
       "make": "Kia",
       "model": "Carnival LXS",
@@ -4408,7 +4408,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3C6LRVAG0SE522608",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster Tradesman",
@@ -4422,7 +4422,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3C6LRVAG0SE522608",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster Tradesman",
@@ -4436,7 +4436,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3C6LRVAG5SE522605",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster Tradesman",
@@ -4450,7 +4450,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3C6LRVAG5SE522605",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster Tradesman",
@@ -4464,7 +4464,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3C6LRVAG3SE522604",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster Tradesman",
@@ -4478,7 +4478,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3C6LRVAG3SE522604",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster Tradesman",
@@ -4520,7 +4520,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4RJKBG7S8732947",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4534,7 +4534,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4RJKBG7S8732947",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4562,7 +4562,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMUK7DH1TGA19118",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer Active",
@@ -4604,7 +4604,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4RJHBG0S8725194",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4618,7 +4618,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4RJHBG0S8725194",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4632,7 +4632,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4RJHBG2S8725195",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4646,7 +4646,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4RJHBG2S8725195",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4660,7 +4660,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "4T1DBADK2TU554694",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4674,7 +4674,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "4T1DBADK2TU554694",
       "year": 2026,
       "make": "Toyota",
       "model": "Camry",
@@ -4730,7 +4730,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "KNDNC5KA0T6135920",
       "year": 2026,
       "make": "Kia",
       "model": "Carnival",
@@ -4758,7 +4758,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "KNDNC5KA0T6146691",
       "year": 2026,
       "make": "Kia",
       "model": "Carnival",
@@ -4772,7 +4772,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4RJJBG2S8715452",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4786,7 +4786,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4RJJBG2S8715452",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4800,7 +4800,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4RJJBG0S8715451",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4814,7 +4814,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4RJJBG0S8715451",
       "year": 2025,
       "make": "Jeep",
       "model": "Grand Cherokee",
@@ -4856,7 +4856,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "5TFKB5AA3TX057005",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -4870,7 +4870,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "5TFKB5AA3TX057005",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -4912,7 +4912,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3FMCR9CN0SRE98505",
       "year": 2025,
       "make": "Ford",
       "model": "Bronco Outer Banks",
@@ -4926,7 +4926,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3FMCR9CN0SRE98505",
       "year": 2025,
       "make": "Ford",
       "model": "Bronco Outer Banks",
@@ -4954,7 +4954,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "KNDNC5KA6T6146355",
       "year": 2026,
       "make": "Kia",
       "model": "Carnival",
@@ -4982,7 +4982,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "KNDNC5KA0T6146576",
       "year": 2026,
       "make": "Kia",
       "model": "Carnival",
@@ -5052,7 +5052,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3TYLB5JNXTT120165",
       "year": 2026,
       "make": "Toyota",
       "model": "Tacoma",
@@ -5066,7 +5066,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3TYLB5JNXTT120165",
       "year": 2026,
       "make": "Toyota",
       "model": "Tacoma",
@@ -5080,7 +5080,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEN7SW609613",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5094,7 +5094,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEN7SW609613",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5136,7 +5136,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3C6LRVDG7SE563426",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster SLT",
@@ -5150,7 +5150,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3C6LRVDG7SE563426",
       "year": 2025,
       "make": "Ram",
       "model": "ProMaster SLT",
@@ -5164,7 +5164,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3C4RJNCK9ST589375",
       "year": 2025,
       "make": "Jeep",
       "model": "Wagoneer",
@@ -5178,7 +5178,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3C4RJNCK9ST589375",
       "year": 2025,
       "make": "Jeep",
       "model": "Wagoneer",
@@ -5192,7 +5192,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3C4RJNCK5ST583475",
       "year": 2025,
       "make": "Jeep",
       "model": "Wagoneer",
@@ -5206,7 +5206,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3C4RJNCK5ST583475",
       "year": 2025,
       "make": "Jeep",
       "model": "Wagoneer",
@@ -5220,7 +5220,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3C4RJNCKXST583052",
       "year": 2025,
       "make": "Jeep",
       "model": "Wagoneer",
@@ -5234,7 +5234,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3C4RJNCKXST583052",
       "year": 2025,
       "make": "Jeep",
       "model": "Wagoneer",
@@ -5276,7 +5276,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "3TMLB5JN5TM249295",
       "year": 2026,
       "make": "Toyota",
       "model": "Tacoma",
@@ -5290,7 +5290,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "3TMLB5JN5TM249295",
       "year": 2026,
       "make": "Toyota",
       "model": "Tacoma",
@@ -5416,7 +5416,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6RREFP9TN151500",
       "year": 2026,
       "make": "Ram",
       "model": "1500 Big Horn",
@@ -5430,7 +5430,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6RREFP9TN151500",
       "year": 2026,
       "make": "Ram",
       "model": "1500 Big Horn",
@@ -5486,7 +5486,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMUK7KH9TGA23730",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST-Line",
@@ -5500,7 +5500,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG2SW541545",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5514,7 +5514,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG2SW541545",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5528,7 +5528,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG0SW541544",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5542,7 +5542,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG0SW541544",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5556,7 +5556,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG6SW541550",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5570,7 +5570,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG6SW541550",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5584,7 +5584,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG4SW541546",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5598,7 +5598,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEG4SW541546",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5612,7 +5612,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEGXSW541552",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5626,7 +5626,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXEGXSW541552",
       "year": 2025,
       "make": "Jeep",
       "model": "Wrangler Sahara",
@@ -5640,7 +5640,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6SRFFP3SN671181",
       "year": 2025,
       "make": "Ram",
       "model": "1500 Big Horn",
@@ -5654,7 +5654,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6SRFFP3SN671181",
       "year": 2025,
       "make": "Ram",
       "model": "1500 Big Horn",
@@ -5682,7 +5682,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMUK7KH8TGA69078",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST-Line",
@@ -5696,7 +5696,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6SRFFP7SN671183",
       "year": 2025,
       "make": "Ram",
       "model": "1500 Big Horn",
@@ -5710,7 +5710,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6SRFFP7SN671183",
       "year": 2025,
       "make": "Ram",
       "model": "1500 Big Horn",
@@ -5738,7 +5738,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FTFX1L57SKF94113",
       "year": 2025,
       "make": "Ford",
       "model": "F-150",
@@ -5752,7 +5752,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG3SL536322",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5766,7 +5766,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG3SL536322",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5780,7 +5780,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG6SL536329",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5794,7 +5794,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG6SL536329",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5808,7 +5808,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG2SL536330",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5822,7 +5822,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG2SL536330",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5836,7 +5836,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG0SL536326",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5850,7 +5850,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6RJTBG0SL536326",
       "year": 2025,
       "make": "Jeep",
       "model": "Gladiator Rubicon X",
@@ -5864,7 +5864,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "5TFLA5BC3TX003954",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -5878,7 +5878,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "5TFLA5BC3TX003954",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -5934,7 +5934,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA23GG01T7U76703",
       "year": 2026,
       "make": "BMW",
       "model": "2 Series 228 Gran Coupe",
@@ -6046,7 +6046,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8GC5SGC14233",
       "year": 2025,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6088,7 +6088,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "JTDACAAJ4T3040741",
       "year": 2026,
       "make": "Toyota",
       "model": "Crown Signia",
@@ -6102,7 +6102,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "JTDACAAJ4T3040741",
       "year": 2026,
       "make": "Toyota",
       "model": "Crown Signia",
@@ -6158,7 +6158,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP07T9339753",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6186,7 +6186,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXDG6TW197723",
       "year": 2026,
       "make": "Jeep",
       "model": "Wrangler WRANGLER 4-DOOR WILLYS",
@@ -6214,7 +6214,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP0XT9331369",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6242,7 +6242,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP04T9270620",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6270,7 +6270,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1C4PJXDG2TW197721",
       "year": 2026,
       "make": "Jeep",
       "model": "Wrangler WRANGLER 4-DOOR WILLYS",
@@ -6298,7 +6298,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP08T9205205",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6326,7 +6326,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1C6SRFFP9TN237428",
       "year": 2026,
       "make": "Ram",
       "model": "1500 RAM 1500 BIG HORN CREW CAB",
@@ -6382,7 +6382,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK7GC3TGA09828",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6410,7 +6410,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP03T9334680",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6438,7 +6438,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8JC7TGA20183",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer Tremor",
@@ -6466,7 +6466,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8GC7TGA15007",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6494,7 +6494,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8GC2TGA72893",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6522,7 +6522,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8GCXTGA11002",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6550,7 +6550,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8GC3TGA46304",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6634,7 +6634,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8GCXTGA14563",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6690,7 +6690,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FMWK8GC8TGA09359",
       "year": 2026,
       "make": "Ford",
       "model": "Explorer ST",
@@ -6718,7 +6718,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP03T9255722",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6746,7 +6746,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FTFW3L8XSFC35582",
       "year": 2025,
       "make": "Ford",
       "model": "F-150",
@@ -6774,7 +6774,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP09T9340077",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6802,7 +6802,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA23FB08TFW25924",
       "year": 2026,
       "make": "BMW",
       "model": "4 Series 430i Gran Coupe",
@@ -6830,7 +6830,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "5UX53GP09T9340550",
       "year": 2026,
       "make": "BMW",
       "model": "X3 30 xDrive",
@@ -6858,7 +6858,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43DA00TCX22888",
       "year": 2026,
       "make": "BMW",
       "model": "4 Series 430i",
@@ -6886,7 +6886,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FTFW3K87SKE06832",
       "year": 2025,
       "make": "Ford",
       "model": "F-150",
@@ -6900,7 +6900,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "5TFWA5DB1TX12A034",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -6914,7 +6914,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "5TFWA5DB1TX12A034",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -6942,7 +6942,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ01TCX08879",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -6970,7 +6970,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ01TCX06520",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -6998,7 +6998,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ06TCX23636",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7026,7 +7026,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ04TCX21612",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7054,7 +7054,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FTFW5L56TKD07758",
       "year": 2026,
       "make": "Ford",
       "model": "F-150 Lariat",
@@ -7082,7 +7082,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ02TCX18014",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7110,7 +7110,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ04TCX24865",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7138,7 +7138,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ0XTCX07696",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7166,7 +7166,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ05TCX16340",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7180,7 +7180,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "W1KLF4GB8TA239259",
       "year": 2026,
       "make": "Mercedes-Benz",
       "model": "E-Class E 350",
@@ -7194,7 +7194,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "W1KLF4GB8TA239259",
       "year": 2026,
       "make": "Mercedes-Benz",
       "model": "E-Class E 350",
@@ -7222,7 +7222,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ00TCX16844",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7236,7 +7236,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "1C6SRFHP8TN182824",
       "year": 2026,
       "make": "Ram",
       "model": "1500",
@@ -7250,7 +7250,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "1C6SRFHP8TN182824",
       "year": 2026,
       "make": "Ram",
       "model": "1500",
@@ -7264,7 +7264,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "5TFNC5DB3TX134082",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -7278,7 +7278,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "5TFNC5DB3TX134082",
       "year": 2026,
       "make": "Toyota",
       "model": "Tundra",
@@ -7306,7 +7306,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "WBA43FJ02TCX04890",
       "year": 2026,
       "make": "BMW",
       "model": "5 Series 530i",
@@ -7334,7 +7334,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FTFW4L83SFC56151",
       "year": 2025,
       "make": "Ford",
       "model": "F-150 Tremor",
@@ -7362,7 +7362,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "1FTFW5LDXTFA08905",
       "year": 2026,
       "make": "Ford",
       "model": "F-150 Lariat",
@@ -7376,7 +7376,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "W1KLF6BBXTA241601",
       "year": 2026,
       "make": "Mercedes-Benz",
       "model": "E-Class E 450",
@@ -7390,7 +7390,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "W1KLF6BBXTA241601",
       "year": 2026,
       "make": "Mercedes-Benz",
       "model": "E-Class E 450",
@@ -7418,7 +7418,7 @@
       "site_code": "ll"
     },
     {
-      "vin": null,
+      "vin": "3C63R5FL0TG262271",
       "year": 2026,
       "make": "Ram",
       "model": "2500 RAM 2500",
@@ -7432,7 +7432,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "4JGFD6BBXTB604529",
       "year": 2026,
       "make": "Mercedes-Benz",
       "model": "GLE53 AMG AMG GLE 53",
@@ -7446,7 +7446,7 @@
       "site_code": "eb"
     },
     {
-      "vin": null,
+      "vin": "4JGFD6BBXTB604529",
       "year": 2026,
       "make": "Mercedes-Benz",
       "model": "GLE53 AMG AMG GLE 53",
@@ -7796,7 +7796,7 @@
       "site_code": null
     },
     {
-      "vin": null,
+      "vin": "WDDAJ76FX6M001007",
       "year": 2006,
       "make": "Mercedes-Benz",
       "model": "SLR McLaren",
