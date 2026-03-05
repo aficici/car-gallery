@@ -36,6 +36,9 @@ import {
   ChevronLeft,
   ChevronRight,
   RefreshCw,
+  ChevronUp,
+  ChevronDown,
+  ChevronsUpDown,
 } from "lucide-react";
 
 interface Vehicle {
@@ -71,6 +74,9 @@ interface ApiResponse {
   };
 }
 
+type SortCol = "year" | "make" | "mileage" | "price";
+type SortDir = "asc" | "desc";
+
 function formatPrice(price: number | null) {
   if (!price) return "—";
   return new Intl.NumberFormat("en-US", {
@@ -85,14 +91,24 @@ function formatMileage(miles: number | null) {
   return new Intl.NumberFormat("en-US").format(miles) + " mi";
 }
 
+function SortIcon({ col, sortCol, sortDir }: { col: SortCol; sortCol: SortCol; sortDir: SortDir }) {
+  if (col !== sortCol) return <ChevronsUpDown className="h-3.5 w-3.5 text-slate-400" />;
+  return sortDir === "asc"
+    ? <ChevronUp className="h-3.5 w-3.5 text-blue-600" />
+    : <ChevronDown className="h-3.5 w-3.5 text-blue-600" />;
+}
+
 export default function MarketPage() {
   const [data, setData] = useState<ApiResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [selectedMake, setSelectedMake] = useState("all");
-  const [sort, setSort] = useState("price_asc");
+  const [sortCol, setSortCol] = useState<SortCol>("price");
+  const [sortDir, setSortDir] = useState<SortDir>("asc");
   const [page, setPage] = useState(1);
   const [searchInput, setSearchInput] = useState("");
+
+  const sort = `${sortCol}_${sortDir}`;
 
   const fetchVehicles = useCallback(async () => {
     setLoading(true);
@@ -130,8 +146,13 @@ export default function MarketPage() {
     setPage(1);
   }
 
-  function handleSortChange(val: string) {
-    setSort(val);
+  function handleSort(col: SortCol) {
+    if (col === sortCol) {
+      setSortDir((d) => (d === "asc" ? "desc" : "asc"));
+    } else {
+      setSortCol(col);
+      setSortDir("asc");
+    }
     setPage(1);
   }
 
@@ -207,7 +228,7 @@ export default function MarketPage() {
         </Card>
       </div>
 
-      {/* Filtreler */}
+      {/* Filters */}
       <Card>
         <CardContent className="pt-4 pb-4">
           <div className="flex flex-col sm:flex-row gap-3">
@@ -239,19 +260,6 @@ export default function MarketPage() {
                 ))}
               </SelectContent>
             </Select>
-
-            <Select value={sort} onValueChange={handleSortChange}>
-              <SelectTrigger className="w-full sm:w-48">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="price_asc">Price: Low to High</SelectItem>
-                <SelectItem value="price_desc">Price: High to Low</SelectItem>
-                <SelectItem value="year_desc">Year: Newest First</SelectItem>
-                <SelectItem value="year_asc">Year: Oldest First</SelectItem>
-                <SelectItem value="mileage_asc">Mileage: Low to High</SelectItem>
-              </SelectContent>
-            </Select>
           </div>
         </CardContent>
       </Card>
@@ -269,7 +277,7 @@ export default function MarketPage() {
             </span>
             {data && (
               <span className="text-xs text-slate-500 font-normal">
-                Sayfa {data.page} / {data.totalPages}
+                Page {data.page} / {data.totalPages}
               </span>
             )}
           </CardTitle>
@@ -293,17 +301,37 @@ export default function MarketPage() {
                 <TableHeader>
                   <TableRow className="bg-slate-50">
                     <TableHead className="w-36">VIN</TableHead>
-                    <TableHead className="w-12">Year</TableHead>
-                    <TableHead>Make</TableHead>
-                    <TableHead>Model</TableHead>
-                    <TableHead>
+                    <TableHead
+                      className="w-16 cursor-pointer select-none hover:bg-slate-100"
+                      onClick={() => handleSort("year")}
+                    >
                       <div className="flex items-center gap-1">
-                        <Gauge className="h-3 w-3" /> Mileage
+                        Year <SortIcon col="year" sortCol={sortCol} sortDir={sortDir} />
                       </div>
                     </TableHead>
-                    <TableHead>
+                    <TableHead
+                      className="cursor-pointer select-none hover:bg-slate-100"
+                      onClick={() => handleSort("make")}
+                    >
                       <div className="flex items-center gap-1">
-                        <DollarSign className="h-3 w-3" /> Price
+                        Make <SortIcon col="make" sortCol={sortCol} sortDir={sortDir} />
+                      </div>
+                    </TableHead>
+                    <TableHead>Model</TableHead>
+                    <TableHead
+                      className="cursor-pointer select-none hover:bg-slate-100"
+                      onClick={() => handleSort("mileage")}
+                    >
+                      <div className="flex items-center gap-1">
+                        <Gauge className="h-3 w-3" /> Mileage <SortIcon col="mileage" sortCol={sortCol} sortDir={sortDir} />
+                      </div>
+                    </TableHead>
+                    <TableHead
+                      className="cursor-pointer select-none hover:bg-slate-100"
+                      onClick={() => handleSort("price")}
+                    >
+                      <div className="flex items-center gap-1">
+                        <DollarSign className="h-3 w-3" /> Price <SortIcon col="price" sortCol={sortCol} sortDir={sortDir} />
                       </div>
                     </TableHead>
                     <TableHead>

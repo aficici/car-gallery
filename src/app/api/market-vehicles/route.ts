@@ -36,12 +36,18 @@ export async function GET(req: NextRequest) {
           return (a.price || 999999) - (b.price || 999999);
         case "price_desc":
           return (b.price || 0) - (a.price || 0);
-        case "year_desc":
-          return (b.year || 0) - (a.year || 0);
         case "year_asc":
           return (a.year || 9999) - (b.year || 9999);
+        case "year_desc":
+          return (b.year || 0) - (a.year || 0);
         case "mileage_asc":
           return (a.mileage || 999999) - (b.mileage || 999999);
+        case "mileage_desc":
+          return (b.mileage || 0) - (a.mileage || 0);
+        case "make_asc":
+          return (a.make || "").localeCompare(b.make || "");
+        case "make_desc":
+          return (b.make || "").localeCompare(a.make || "");
         default:
           return 0;
       }
