@@ -65,14 +65,9 @@ export function VehicleTable({ vehicles, isAdmin, onDelete }: VehicleTableProps)
             return (
               <TableRow key={v.id}>
                 <TableCell>
-                  <div>
-                    <p className="font-medium text-slate-900">
-                      {v.brand} {v.model}
-                    </p>
-                    {v.plateNumber && (
-                      <p className="text-xs text-slate-500">{v.plateNumber}</p>
-                    )}
-                  </div>
+                  <p className="font-medium text-slate-900">
+                    {v.brand} {v.model}
+                  </p>
                 </TableCell>
                 <TableCell>{v.year}</TableCell>
                 <TableCell>{fuelLabels[v.fuelType]}</TableCell>

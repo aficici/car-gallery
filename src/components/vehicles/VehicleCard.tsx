@@ -68,12 +68,6 @@ export function VehicleCard({ vehicle }: { vehicle: Vehicle }) {
             <Settings2 className="h-3 w-3" />
             <span>{transmissionLabels[vehicle.transmission]}</span>
           </div>
-          {vehicle.plateNumber && (
-            <div className="flex items-center gap-1">
-              <Car className="h-3 w-3" />
-              <span>{vehicle.plateNumber}</span>
-            </div>
-          )}
         </div>
 
         <p className="text-lg font-bold text-slate-900">

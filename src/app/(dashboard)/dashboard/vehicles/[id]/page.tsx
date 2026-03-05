@@ -71,9 +71,6 @@ export default async function VehicleDetailPage({
           </h1>
           <div className="flex items-center gap-2 mt-1">
             <Badge className={status.className}>{status.label}</Badge>
-            {vehicle.plateNumber && (
-              <span className="text-sm text-slate-500">{vehicle.plateNumber}</span>
-            )}
           </div>
         </div>
       </div>
@@ -172,7 +169,6 @@ export default async function VehicleDetailPage({
                   { label: "Transmission", value: transmissionLabels[vehicle.transmission] },
                   { label: "Mileage", value: `${vehicle.mileage.toLocaleString()} mi` },
                   vehicle.vin ? { label: "VIN", value: vehicle.vin } : null,
-                  vehicle.plateNumber ? { label: "Plate", value: vehicle.plateNumber } : null,
                 ]
                   .filter(Boolean)
                   .map((item) => (
