@@ -74,7 +74,7 @@ interface ApiResponse {
   };
 }
 
-type SortCol = "year" | "make" | "mileage" | "price";
+type SortCol = "vin" | "year" | "make" | "mileage" | "price";
 type SortDir = "asc" | "desc";
 
 function formatPrice(price: number | null) {
@@ -300,7 +300,14 @@ export default function MarketPage() {
               <Table>
                 <TableHeader>
                   <TableRow className="bg-slate-50">
-                    <TableHead className="w-36">VIN</TableHead>
+                    <TableHead
+                      className="w-36 cursor-pointer select-none hover:bg-slate-100"
+                      onClick={() => handleSort("vin")}
+                    >
+                      <div className="flex items-center gap-1">
+                        VIN <SortIcon col="vin" sortCol={sortCol} sortDir={sortDir} />
+                      </div>
+                    </TableHead>
                     <TableHead
                       className="w-16 cursor-pointer select-none hover:bg-slate-100"
                       onClick={() => handleSort("year")}

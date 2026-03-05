@@ -46,6 +46,10 @@ export async function GET(req: NextRequest) {
           return (b.mileage || 0) - (a.mileage || 0);
         case "make_asc":
           return (a.make || "").localeCompare(b.make || "");
+        case "vin_asc":
+          return (a.vin || "zzz").localeCompare(b.vin || "zzz");
+        case "vin_desc":
+          return (b.vin || "").localeCompare(a.vin || "");
         case "make_desc":
           return (b.make || "").localeCompare(a.make || "");
         default:
