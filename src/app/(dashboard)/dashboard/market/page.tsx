@@ -86,6 +86,37 @@ function formatPrice(price: number | null) {
   }).format(price);
 }
 
+
+function getSourceName(url: string): string {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    const known: Record<string, string> = {
+      "revyautos.com": "RevyAutos",
+      "ebay.com": "eBay",
+      "carvana.com": "Carvana",
+      "cars.com": "Cars.com",
+      "autotrader.com": "AutoTrader",
+      "craigslist.org": "Craigslist",
+      "facebook.com": "Facebook",
+      "carmax.com": "CarMax",
+      "vroom.com": "Vroom",
+      "offerpad.com": "Offerpad",
+      "carsforsale.com": "CarsForSale",
+      "autos.lotlinx.com": "LotLinx",
+      "lotlinx.com": "LotLinx",
+      "dealer.com": "Dealer",
+      "cargurus.com": "CarGurus",
+      "truecar.com": "TrueCar",
+    };
+    if (known[host]) return known[host];
+    // Capitalize first segment before first dot
+    const name = host.split(".")[0];
+    return name.charAt(0).toUpperCase() + name.slice(1);
+  } catch {
+    return "View";
+  }
+}
+
 function formatMileage(miles: number | null) {
   if (!miles) return "—";
   return new Intl.NumberFormat("en-US").format(miles) + " mi";
@@ -346,7 +377,7 @@ export default function MarketPage() {
                         <MapPin className="h-3 w-3" /> Location
                       </div>
                     </TableHead>
-                    <TableHead className="w-10"></TableHead>
+                    <TableHead>Source</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -392,10 +423,10 @@ export default function MarketPage() {
                           href={v.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-500 hover:text-blue-700 inline-flex"
-                          title="Open listing"
+                          className="inline-flex items-center gap-1 text-blue-500 hover:text-blue-700 text-xs font-medium whitespace-nowrap"
                         >
-                          <ExternalLink className="h-4 w-4" />
+                          {getSourceName(v.url)}
+                          <ExternalLink className="h-3 w-3" />
                         </a>
                       </TableCell>
                     </TableRow>
